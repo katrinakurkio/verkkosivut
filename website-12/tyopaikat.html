@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Työpaikat | Echo Techo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo.png">
+    <script src="https://kit.fontawesome.com/67a4afdbf4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav-bar">
+        <a href="/index.html"><h1 class="logo">EchoTecho</h1></a>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="/palvelut.html">Palvelut</a></li>
+                <li><a href="/meista.html">Meistä</a></li>
+                <li><a href="/tyopaikat.html" class="chosen">Työpaikat</a></li>
+                <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="index-container">
+        <div class="hero-section">
+            <div class="hero-text">
+                <h2>Etsimme jatkuvasti kaikentasoisia osaajia kasvavaan tiimiimme!</h2>
+                <p>Tarjoamme inspiroivan ja dynaamisen työympäristön, jossa arvostetaan innovatiivisuutta, yhteistyötä ja jatkuvaa oppimista. Meillä pääset kehittämään taitojasi ja vaikuttamaan merkittävästi niin oman urasi kuin yrityksemmekin kasvuun. Yhdessä voimme saavuttaa enemmän ja tehdä kestävää muutosta maailmaan.</p>
+                <div class="btn-div">
+                    <a href="#yhteystiedot" class="btn hero-btn">Hae tästä!</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="img/pexels-canvastudio-3153198.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container more-padding">
+        <div class="row palvelut-text center">
+            <h2>Uratarinoita</h2>
+        </div>
+        <div class="row palvelut-row center">
+            <div class="col">
+                <img src="/img/pexels-olly-3760613.jpg" class="portrait" alt="">
+                <h3>Rasmus, Sr. Java-developer</h3>
+                <p>Työskentely ympäristöpalveluja tarjoavassa yrityksessä on tarjonnut minulle mahdollisuuden yhdistää kaksi intohimoani: ohjelmointi ja ympäristönsuojelu. Jatkan oppimista ja uusien teknologioiden hyödyntämistä, jotta voin edelleen kehittää ratkaisuja, jotka tekevät maailmasta paremman paikan tuleville sukupolville.</p>
+            </div>
+            <div class="col">
+                <img src="/img/pexels-olly-3771839.jpg" class="portrait" alt="">
+                <h3>Peter, CTO</h3>
+                <p>Matkani alkoi kehittäjänä, kun työskentelin energiatehokkuussovellusten parissa. Siirryin sitten projektipäälliköksi, jossa johdin älykkäiden jätteidenhallintajärjestelmien kehitystä. Tämän kokemuksen myötä nousin teknologiajohtajaksi, vastaten yrityksen teknologiastrategiasta ja johtaen tiimiä kestävien ja innovatiivisten ratkaisujen kehittämisessä. Tavoitteenani on jatkaa teknologian hyödyntämistä ympäristöhaasteiden ratkaisemisessa ja edistää kestävää kehitystä.</p>
+            </div>
+            <div class="col">
+                <img src="/img/pexels-olly-3783725.jpg" class="portrait" alt="">
+                <h3>Heidi, Head of HR</h3>
+                <p>Toimin HR-johtajana, jossa vastaan HR-toimintojen kokonaisvaltaisesta hallinnasta. Olen ylpeä siitä, että olemme kehittäneet monipuolisia henkilöstöohjelmia, jotka tukevat työntekijöidemme hyvinvointia ja sitoutumista yrityksen arvoihin. Tavoitteenani on jatkaa HR-toimintojemme kehittämistä ja varmistaa, että meillä on vahva ja motivoitunut työvoima, joka edistää yrityksemme tavoitteita kestävän kehityksen saralla.</p>
+            </div>
+        </div>
+    </section>
+    <section id="yhteystiedot" class="form-container">
+        <div class="form-div">
+            <div class="CTA-div">
+                <h2>Oletko etsimämme osaaja?</h2>
+                <p>Soita meille tai jätä meille yhteystietosi yhteydenottoa varten!</p>
+                <p><i class="fa-solid fa-phone">&nbsp;&nbsp;</i>+358 50 1234567</p>
+                <p><i class="fa-solid fa-envelope">&nbsp;&nbsp;</i>rekry@echotecho.fi</p>
+            </div>
+            <div class="CTA-form">
+                <h3>Avoin hakemus</h3>
+                <form class="form">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nimi">
+                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Linkedin">
+                    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Sähköposti">
+                    <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="Puhelinnumero">
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile01">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3 btn-form">Lähetä</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i> Katrina Kurkio</p>
+    </footer>
+</body>
+</html>

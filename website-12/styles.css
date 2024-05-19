@@ -1,0 +1,425 @@
+@font-face {
+    font-family: Spartan;
+    src: url(fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PoppinsReg;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PoppinsReg;
+    color: darkslategray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(47, 79, 79);
+}
+
+
+
+a:hover {
+    color:white;
+}
+
+.center {
+    text-align: center;
+}
+
+.chosen {
+    color: rgb(144, 183, 183);
+}
+
+.index-container {
+    height: 100%;
+}
+
+.nav-bar {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    border-bottom: 1px solid transparent;
+}
+
+.logo{
+    font-family: Spartan;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: -4px;
+}
+
+.nav-bar h1:hover {
+    color: rgb(144, 183, 183);  
+}
+
+.nav-list {
+    display: flex;
+    margin: 0rem 1.2rem;
+}
+
+.nav-list li {
+    margin: 1rem 2rem;
+    padding: 1rem;
+
+}
+
+.nav-list li:hover {
+    background-color: rgb(144, 183, 183, 0.5);
+    border-radius: 10px;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem 2rem;
+    border: transparent 2px solid;
+    background-color: darkslategray;
+}
+
+.btn:hover {
+    background-color: rgb(144, 183, 183);
+    border: rgb(144, 183, 183) 2px solid;
+}
+
+.hero-btn:hover {
+    background-color:rgb(144, 183, 183);
+    color:  white;
+    border: darkslategray solid 2px;
+}
+
+.hero-section h2{
+    margin-left: 10%;
+    font-size: 3.5rem;
+    padding: 1rem 0.5rem 0.5rem 0rem;
+    line-height: 4rem;
+    font-weight: bold;
+    font-family: Spartan;
+}
+
+.hero-section p {
+    margin-left: 10%;
+    padding: 1rem .5rem 0rem 0rem;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.hero-text{
+    max-width: 50%;
+    margin: auto;
+}
+
+.hero-img img {
+    float: right;
+    max-width: 100%;
+    max-height: 70vh;
+}
+
+.palvelut-container {
+    padding: 20vh 10%;
+    height: 70%;
+
+}
+
+.palvelut h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.palvelut p {
+    color: darkslategray;
+    font-size: 1.7rem;
+}
+
+.palvelut-btn {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+}
+
+.palvelut-btn:hover {
+    background-color: rgb(117, 137, 137);
+    color: white;
+}
+
+.form-container {
+    padding: 8rem;
+    background-color: darkslategray;
+}
+
+.form-div p, .form-div h2, .form-div h3{
+    color:white;
+}
+
+
+.form-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.form-control {
+    padding: 0.6rem;
+    margin: .5rem 0rem;
+}
+
+.form {
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.btn-form {
+    color: darkslategray;
+    background-color: white;
+}
+
+.palvelut-hero {
+    background-image: url(img/pexels-arthousestudio-4534200.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 30vh 10% 30vh 0;
+}
+
+.palvelut-div {
+    padding-right: 10vw;
+    background-color: rgb(117, 137, 137, 0.5);
+    padding-left: 10%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: auto;
+}
+
+.palvelut-div h2, .meista-div h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-family: Spartan;
+    font-weight: bold;
+}
+
+.palvelut-div p, .meista-div p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.palvelut-row {
+    padding: 2rem 0;
+}
+
+.more-padding{
+    padding: 4rem 0;
+}
+
+.heading-row {
+    padding-top: 3rem;
+}
+
+.palvelut-img {
+    max-width: 90%;
+    float: left;
+}
+.palvelut-text {
+    padding-top: 2rem;
+}
+
+.palvelut-text h2 {
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.meista-div {
+    padding-right: 10vw;
+    background-color: rgb(117, 137, 137, 0.5);
+    padding-left: 10%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 50vh;
+}
+
+.meista-hero {
+    background-image: url(img/pexels-sharefaith-491036-1231230.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    padding: 30vh 10% 30vh 0;
+}
+
+.portrait {
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: solid 1px #f2ebe5;
+}
+
+footer p, i {
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero-section {
+        display: block;
+        text-align: center;
+
+    }
+
+    .hero-img {
+        padding: 2rem;
+    }
+    .hero-img img {
+        float: none;
+    }
+
+    .hero-text {
+        margin-bottom: 1rem;
+        text-align: center;
+        max-width: 75%;
+    }
+
+    .hero-text h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .hero-text p {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .palvelut {
+        text-align: center;
+    }
+
+    .palvelut-div {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .palvelut-hero {
+        padding: 10rem 1rem;
+    }
+    .meista-hero {
+        padding: 10rem 1rem;
+    }
+    .palvelut-row {
+        display: inline;
+    }
+
+    .palvelut-row img {
+        float: none;
+    }
+
+    .palvelut-text {
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        display: block;
+        margin: auto;
+    }
+
+    .form-div {
+        display: inline;
+        text-align: center;
+
+    }
+
+    .palvelut-container {
+        padding: 2rem;
+    }
+
+ 
+
+    .form {
+        width: 50vw;
+        margin: auto;
+    }
+
+    .nav-list li {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    .nav-bar {
+        display: block;
+        height: 20vh;
+    }
+
+    .nav-bar h1 {
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    .main-nav {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-list  {
+        padding: 0;
+    }
+
+
+    .form-container {
+        padding: 2rem;
+    }
+
+    .palvelut-hero {
+        padding: 2rem;
+    }
+
+    .palvelut-div {
+        margin:auto;
+    }
+
+    .palvelut-div h1 {
+        font-size: 2.5rem;
+    }
+
+    .palvelut-div p {
+        font-size: 1rem;
+    }
+
+    .palvelut h2 {
+        font-size: 2rem;
+    }
+}
